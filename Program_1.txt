@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        int Num1 = 0;
+        int Num2 = 0;
+        int result = 0;
+        int sum = 0;
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter Number: ");
+        Num1 = scanner.nextInt();
+
+        System.out.print("Enter Number: ");
+        Num2 = scanner.nextInt();
+
+        sum = Num1 + Num2;
+
+        result = sum * 2;
+
+        System.out.println("The Final Resul: " + result);
+    }
+}
